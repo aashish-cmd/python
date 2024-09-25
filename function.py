@@ -1,8 +1,7 @@
+def add_number():
+    num1 =int(input('Enter a number'))
+    num2 =int(input('enter second number'))
+    result = num1 + num2
 
-def greet():
-    print('hello world')
-
-    #call the function
-    greet()
-
-    print ('outside function')
+    print(f'the result is:',result)
+add_number()
